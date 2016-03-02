@@ -1,0 +1,7 @@
+Jon Blow EnitityManager: Demo Self-browsing code.. 1:02:54 -> 1:05:00
+
+EntityManager:
+- Holds on to all the entities.
+- Gives all the entities a portableID.
+- You can ask the entitimanager for an entity by its portableID.
+- At the end of each frame the entitymanager deletes the entities that are up for deletion. 

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Martin's blog</title>
+	<link rel="stylesheet" type="text/css" href="css/master.css">
+	<link href='https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="quote-page">
+		<div><img src="images/feet.jpg" class="postImage"></div>
+		<div id="quote-title"></div>
+		<div id="quote"></div>
+		<div id="quote-from"></div>
+		<div id="quote-author"></div>
+		<hr class="shorthr">
+		<div class="read-the-blog">Click to <span class="link-a-like" onclick="NavigateToNewPage('/blog')">enter</span> ...</div>
+	</div>
+	<div id="main-page">
+		<div id="topContainer" class="center">
+		<canvas id="topCanvas" width="1081" height="400"></canvas>
+			<!--<img id="topImage" src="../images/background.png" alt="" usemap="#Map" />
+			<map name="Map">
+				<area alt="" onclick="NavigateToNewPage('/blog')" shape="poly" coords="245,196,328,162,349,204,270,244" />
+				<area alt="" onclick="NavigateToNewPage('/about')" shape="poly" coords="373,187,390,162,419,140,434,148,428,173,395,212" />
+				<area alt="" onclick="NavigateToNewPage('/portfolio')" shape="poly" coords="458,295,492,261,532,263,542,299" />
+				<area alt="" onclick="NavigateToNewPage('/treasure')" shape="poly" coords="722,350,722,278,817,276,819,364" />
+			</map-->
+		</div>
+
+		<div id="main-page-content">
+			<div id="posts-overview">
+				<div class="blog-title">Blog</div>
+				<div onclick="ShowPost(9)" class="overview-asset-title">
+					<img class="file-icon" src="icons/file_icon.png">
+					<span> My favorite itch.txt (01.03.16)</span>
+				</div>
+				<div></div>
+				<div onclick="ShowPost(8)" class="overview-asset-title">
+					<img class="file-icon" src="icons/file_icon.png">
+					<span> The_Mountain.txt (05.19.15)</span>
+				</div>
+				<div></div>
+				<div onclick="ShowPost(7)" class="overview-asset-title">
+					<img class="file-icon" src="icons/file_icon.png">
+					<span> A_Real_Adventure.txt (19.10.15)</span>
+				</div>
+				<div></div>
+				<div onclick="ShowPost(6)" class="overview-asset-title">
+					<img class="file-icon" src="icons/file_icon.png">
+					<span> American_Muscle.txt (04.10.15)</span>
+				</div>
+				<div></div>
+				<div onclick="ShowPost(5)" class="overview-asset-title">
+					<img class="file-icon" src="icons/file_icon.png">
+					<span> If_the_Heat.txt (20.09.15)</span>
+				</div>
+				<div></div>
+				<div onclick="ShowPost(4)" class="overview-asset-title">
+					<img class="file-icon" src="icons/file_icon.png">
+					<span> Fresno_wtf.txt (11.09.15)</span>
+				</div>
+				<div></div>
+				<div onclick="ShowPost(3)" class="overview-asset-title">
+					<img class="file-icon" src="icons/file_icon.png">
+					<span> Cali.txt (09.09.15)</span>
+				</div>
+				<div></div>
+				<div onclick="ShowPost(2)" class="overview-asset-title">
+					<img class="file-icon" src="icons/file_icon.png">
+					<span> Walkaholic.txt (08.09.15)</span>
+				</div>
+				<div></div>
+				<div onclick="ShowPost(1)" class="overview-asset-title">
+					<img class="file-icon" src="icons/file_icon.png">
+					<span> The_Burger_Post.txt (07.09.15)</span>
+				</div>
+			</div>
+
+			<div id="post-page">
+				<div id="backToBlogButton">
+					<div onclick="NavigateToNewPage('/blog')"><img class="back-icon" src="icons/back-icon.png"></div>
+				</div>
+				<div id="post-title"></div>
+				<div id="post-body"></div>
+			</div>
+			
+			<div id="about-content">
+				<div><img src="../images/destinedpath.png"></div>
+				<div><img src="../images/timeline.png"></div>
+			</div>
+			<div id="portfolio-content">
+				<div class="portfolio-title">Portfolio</div>
+				Page is undergoing heavy construction. Please come back later!
+				<img class="lol" src="images/lol.jpg">
+			</div>
+
+			<div id="backToGameButton">
+				<div onclick="NavigateToNewPage('/treasure')"><img class="back-icon" src="icons/back-icon.png"></div>
+			</div>
+			<div id="treasure-content">
+				<div id="GameScreen">
+					<div id="movesUsed"></div>
+					<canvas id="canvas"></canvas>
+					<div id="arrowKeys">
+						<img id="ArrowLeft" class="arrow-key" src="../icons/back-icon.png">
+						<img id="ArrowRight" class="arrow-key right-arrow" src="../icons/back-icon.png">
+						<img id="ArrowUp" class="arrow-key up-arrow" src="../icons/back-icon.png">
+						<img id="ArrowDown" class="arrow-key down-arrow" src="../icons/back-icon.png">
+					</div>
+				</div>
+				<div id="TreasureScreen"><b>Congratulations! You found the hidden gems!</b>
+
+					<div class="marginator">
+					<div>Here is a list of stuff I really like and enjoy.</div>
+					<div class="marginator">
+					<img src="../images/littleme.jpg">
+					<div class="marginator">
+
+					<div class="margin40"><i>"Ideas are like fish.
+					If you want to catch little fish, you can stay in the shallow water. But if you want to catch the big fish, you've got to go deeper.
+					Down deep, the fish are more powerful and more pure. They're huge and abstract. And they're very beautiful."</i> - David Lynch</div>
+
+					<hr class="shorthr marginator">
+
+					<div>Zelda's <a href="https://www.youtube.com/watch?v=l-7FcLzveFA" target="_blank">Lullaby</a> from Ocarina of Time, Nintendo 64.</div>
+					
+					<hr class="shorthr marginator">
+
+					<div>When Casey Muratori wants to make <a href="https://youtu.be/lDp4rqcigZs?t=38m46s" target="_blank">stretching</a> on livestream.</div>
+					
+					<hr class="shorthr marginator">
+					
+					<div>The meaning of a little video game called <i>Braid</i>.</div>
+
+					<hr class="shorthr marginator">
+
+					<div>Ira Glass on being <a href="https://www.youtube.com/watch?v=3ResTHKVxf4" target="_blank">creative</a>.</div>
+					
+					<hr class="shorthr marginator">
+
+					<div class="margin40">When Jonathan Blow <a href="https://youtu.be/UTqZNujQOlA?t=1h33m" target="_blank">loses</a> his cupcake while showing off his new language for games called "jai".</div>
+					
+					<hr class="shorthr marginator">
+
+					<div class="margin40">Richard Feynman - The <a href="http://www.dailymotion.com/video/x24gwgc_richard-feynman-the-pleasure-of-finding-things-out_news" target="_blank">Pleasure</a> of Finding Things Out.</div>					
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="error-page">
+		<h3>Oops! The page got lost...</h3>
+	</div>
+</body>
+
+<script src="js/math.js"></script>
+<script src="js/entities.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/handlebars-v4.0.2.js"></script>
+<script src="js/topCanvas.js"></script>
+<script src="js/secret.js"></script>
+<script src="js/control.js"></script>
+<script type="text/javascript">
+	
+function IsTouchDevice() 
+{
+	return('ontouchstart' in document.documentElement);
+}
+
+function GetMousePosition(Canvas, Event) 
+{
+	var Result;
+	var Rect = Canvas.getBoundingClientRect();
+
+	Result = new v2(Event.clientX - Rect.left, Event.clientY - Rect.top);
+
+	return(Result);
+}
+
+function HandleCanvasTouchEvent(event)
+{
+	Event.preventDefault();
+
+	var Position = new v2(0,0);
+
+	Position.X = Math.floor(event.targetTouches[0].clientX);
+	Position.Y = Math.floor(event.targetTouches[0].clientY);
+
+	HandleCanvasClick(Position);
+}
+
+$(document).ready(function()
+{
+	var TouchOrClickEvent = "click";
+	var TouchDevice = IsTouchDevice();
+
+	if(TouchDevice)
+	{
+		$("#arrowKeys").show();
+		TouchOrClickEvent = "touchstart";
+
+		TopCanvas.addEventListener("touchstart", HandleCanvasTouchEvent, false);
+	}
+	else
+	{
+		$("#topCanvas").on('click', function(event)
+		{
+			var Position = GetMousePosition(TopCanvas, event);
+			HandleCanvasClick(Position);
+		});
+	}
+
+
+	$("#ArrowLeft").on(TouchOrClickEvent, function(e)
+	{
+		e.preventDefault();
+		MoveEvent('left');	
+	});
+
+	$("#ArrowRight").on(TouchOrClickEvent, function(e)
+	{
+		e.preventDefault();
+		MoveEvent('right');	
+	});
+
+	$("#ArrowUp").on(TouchOrClickEvent, function(e)
+	{
+		e.preventDefault();
+		MoveEvent('up');	
+	});
+
+	$("#ArrowDown").on(TouchOrClickEvent, function(e)
+	{
+		e.preventDefault();
+		MoveEvent('down');	
+	});
+});
+</script>
+</html>

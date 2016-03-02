@@ -1,0 +1,261 @@
+body {
+	margin: 0;
+	color: white; 
+	font-family: 'Sorts Mill Goudy', serif;
+	background-color: black;
+}
+
+#main-page {
+	background: #000 url(../images/backgroundToRepeat.png) repeat-x;
+	background-position: 50% 0%;
+	display: none;
+	height: 1500px;
+}
+
+#main-page-content {
+	margin: 0 auto;
+	width: 620px;
+}
+
+.link-a-like {
+	font-style: oblique;
+	color: blue;
+	cursor: pointer;
+}
+
+.click-box {
+	cursor: pointer;
+	position: absolute;
+	background-color: transparent; 
+}
+
+.click-box:hover {
+	border: 1px solid yellow;
+}
+
+#topContainer {
+    width:1229px; 
+    height:800px;
+    margin: 0 auto;
+    cursor: pointer; 
+}
+
+#about-content {
+	display: none;
+	text-align: center;
+}
+
+#portfolio-content {
+	display: none;
+}
+
+#treasure-content {
+	display: none;
+}
+
+#GameScreen {
+	background: url("../images/chest.png") top center no-repeat;
+	text-align: center;
+	height: 500px;
+}
+
+#TreasureScreen {
+	display: none;
+	text-align: center;
+}
+
+.margin40 {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.shorthr {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.postImage {
+	width: 620px;
+}
+
+#error-page {
+	display: none;
+}
+
+#quote-page {
+	text-align: left;
+	margin: 0 auto;
+	width: 620px;
+	display: none;
+}
+
+#quote {
+	font-size: 22px;
+	line-height: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 20px;
+}
+
+#quote-from {
+	font-style: italic;
+	font-size: 16px;
+	line-height: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 20px;
+}
+
+#quote-title {
+	font-weight: bold;
+	font-size: 34px;
+	padding-left: 20px;
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+
+#quote-author {
+	font-size: 24px;
+	font-style: italic;
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+
+.read-the-blog {
+	font-size: 18px;
+	padding-left: 20px;
+
+	margin-bottom: 250px;
+}
+
+#post-page {
+	width: 620px;
+}
+
+#post-title {
+	text-align: center;
+	margin-bottom: 22px;
+}
+
+#post-body {
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: 150px;
+}
+
+.font44 {
+	font-size: 44px;
+}
+
+.margin26bot {
+	margin-bottom: 26px;
+}
+
+.margin26top {
+	margin-top: 26px;
+}
+
+.dialog {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-style: italic;
+}
+
+#backToGameButton {
+	margin: 0 auto;
+	display: none;
+}
+
+#backToBlogButton {
+	margin: 0 auto;
+	margin-bottom: -58px;
+	display: none;
+}
+
+.blog-title {
+	font-size: 44px;
+	margin-bottom: 24px;
+	text-align: center;
+}
+
+.portfolio-title {
+	font-size: 32px;
+	margin-bottom: 32px;
+	text-align: center;
+}
+
+.marginator {
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.center {
+	text-align: center;
+}
+
+.overview-asset-title {
+	display: inline-block;
+	margin-bottom: 6px;
+	font-size: 16px;
+	line-height: 22px;
+	cursor: pointer;
+}
+
+.back-icon {
+	cursor: pointer;
+}
+
+#arrowKeys {
+	display: none;
+}
+
+.arrow-key {
+	cursor: pointer;
+	margin: 50px;
+}
+
+.up-arrow {
+	-ms-transform: rotate(90deg); /* IE 9 */
+    	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    	transform: rotate(90deg);
+}
+
+.right-arrow {
+	-ms-transform: rotate(180deg); /* IE 9 */
+    	-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    	transform: rotate(180deg);
+}
+
+.down-arrow {
+	-ms-transform: rotate(270deg); /* IE 9 */
+    	-webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    	transform: rotate(270deg);
+}
+
+.back-icon:hover {
+ 	-webkit-filter: invert(1);
+   	filter: invert(1);
+}
+
+.file-icon {
+	margin-bottom: -6px;
+}
+
+.lol {
+	width: 600px;
+}
+
+.bot-margin8 {
+	margin-bottom: 8px;
+}
+
+#canvas {
+	margin-top: 121px;
+	 margin-left: 10px;
+}
+
+#movesUsed {
+	font-size: 20px;
+	margin-bottom: -70px;
+    	padding-top: 117px;
+}
