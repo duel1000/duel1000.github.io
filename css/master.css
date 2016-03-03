@@ -23,12 +23,17 @@ body {
 	margin-bottom: 50px;
 }
 
-.newline
-{
+.newline {
 	margin-top: 12px;
 	margin-bottom: 12px;
 }
 
+.post-image {
+	text-align: center;
+}
+.post-image img {
+	width: 500px;
+}
 
 #main-page {
 	background: #000 url(../images/backgroundToRepeat.png) repeat-x;
