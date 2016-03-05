@@ -5,6 +5,36 @@ body {
 	background-color: black;
 }
 
+.post-title {
+	font-size: 24px;
+	text-align: center;
+}
+
+.post-body {
+	font-size: 16px;	
+}
+
+.date-title {
+	font-size: 14px;	
+	font-style: italic;
+}
+
+.end-div {
+	margin-bottom: 50px;
+}
+
+.newline {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.post-image {
+	text-align: center;
+}
+.post-image img {
+	width: 500px;
+}
+
 #main-page {
 	background: #000 url(assets/images/backgroundToRepeat.png) repeat-x;
 	background-position: 50% 0%;
