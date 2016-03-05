@@ -84,6 +84,7 @@ function NavigateToNewPage(PageName)
 
 (function() 
 {
+	/*
 	$.getJSON("anecdotes.json", function(data)
 	{	
 		var length = Object.keys(data).length;
@@ -109,6 +110,7 @@ function NavigateToNewPage(PageName)
 
 	var Path = window.location.pathname;
 	NavigateToNewPage(Path)
+	*/
 })();
 
 function ShowPost(ID)
