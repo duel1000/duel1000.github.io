@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "customfont";
+    src: url("r/roboto-regular-webfont.woff2") format("woff2"),
+         url("r/roboto-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  font-family: customfont;
+
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body { 
+	background-color: #001219;
+	color: black;
+}
+
+div {
+	background-color: rgb(225,191,146);
+}
+
+h1,h2,h3,h4 { 
+	text-align: center; 
+}
+
+.article {
+	text-align: justify;	
+	margin: 25px;
+}
+
+.left {
+	text-align: left;
+}
+
+.walled {
+	border: 3px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 30px;
+}
+
+.martin {
+	width: 25%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
