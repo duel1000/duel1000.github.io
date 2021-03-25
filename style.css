@@ -1,3 +1,10 @@
+:root {
+  --SkinColor:  rgb(225,191,146);
+  --GreenColor: rgb(125,191,146);
+  --DeepColor: #001219;
+  --LinkColor: rgb(45,51,246);
+}
+
 @font-face {
     font-family: "customfont";
     src: url("r/roboto-regular-webfont.woff2") format("woff2"),
@@ -8,23 +15,49 @@
 
 html {
   font-family: customfont;
-
-  width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 body { 
-	background-color: #001219;
+	background-color: var(--DeepColor);
 	color: black;
+
+	width: 1000px;
+	height: 1500px;
+	margin-left: auto;
+  	margin-right: auto;
 }
 
 div {
-	background-color: rgb(225,191,146);
+	background-color: var(--SkinColor);
 }
 
-h1,h2,h3,h4 { 
-	text-align: center; 
+div#index_page_content {
+  	border: 3px solid black;
+	padding: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 100px;
+}
+
+div#content {
+  	border: 3px solid black;
+	padding: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: 50px;
+}
+
+div#article_header {
+	text-align: left;
+}
+
+.top_header {
+	background-color: var(--GreenColor);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
 }
 
 .article {
@@ -36,11 +69,8 @@ h1,h2,h3,h4 {
 	text-align: left;
 }
 
-.walled {
-	border: 3px solid black;
-	border-radius: 20px;
-	padding: 20px;
-	margin: 30px;
+.center {
+	text-align: center;
 }
 
 .martin {
@@ -48,4 +78,23 @@ h1,h2,h3,h4 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+a:link {
+  color: var(--LinkColor);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--LinkColor);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--LinkColor);
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
 }
