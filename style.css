@@ -80,6 +80,12 @@ div#article_header {
 	margin-right: auto;
 }
 
+.venice {
+	width: 25%;
+	display: block;
+	margin-left: 0px;
+}
+
 a:link {
   color: var(--LinkColor);
   text-decoration: none;
