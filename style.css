@@ -1,20 +1,49 @@
 :root {
   --SkinColor:  rgb(225,191,146);
   --GreenColor: rgb(125,191,146);
-  --DeepColor: #001219;
-  --LinkColor: rgb(45,51,246);
+  --DeepColor: #adacaa;
+  --LinkColor: #9c1a21;
 }
 
 @font-face {
     font-family: "customfont";
-    src: url("r/roboto-regular-webfont.woff2") format("woff2"),
-         url("r/roboto-regular-webfont.woff") format("woff");
+    src: url("r/roboto-regular-webfont.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    font-family: "LatoFontBlack";
+    src: url("r/lato-black.woff") format("woff");
+}
+
+@font-face {
+    font-family: "LatoFontBlackItalic";
+    src: url("r/lato-blackitalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "LatoFontBold";
+    src: url("r/lato-bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "LatoFontBoldItalic";
+    src: url("r/lato-bolditalic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "LatoFontItalic";
+    src: url("r/lato-italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "LatoFontRegular";
+    src: url("r/lato-regular.woff") format("woff");
+}
+
 html {
-  font-family: customfont;
+  font-family: LatoFontRegular;
 }
 
 body { 

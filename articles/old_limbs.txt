@@ -1,0 +1,36 @@
+It is hard to let pieces of yourself die. Sometimes, when you want to move forward,
+you should let the old part of you die and fall off. That will make you lighter, and 
+you can move on. Everything is infinitely complex, so believing that you can drag all
+of your old garbage with you is probably a mistake. 
+	
+It is sort of akin to minimalism. Why keep old stuff? It just bogs you down, you have to move it around,
+clean it. You have to move around it. Be hardcore about throwing away. A good life comes from throwing 
+away old shit. Aim at growing as much as you can. You cannot grow with old shit clinging to you. 
+Besides, you are only as good as what you ship. So, what about shipping some stuff?
+
+Make it in a way that is cool. Ship the thing. Move on, and do something else. That is the way. No one
+cares if you have an engine that can support multiple things. 
+
+Who is that guy? Oh, he is the guy who shipped that _thing_. 
+
+Like. I made Deadliners. That is one codebase. Now, I am working on the next. Which seems to 
+be this square like puzzle game. About discovery and the recognition of religious ideas.
+
+IF I want side projects, I need to be able to abandon them quickly, or ship them as well. It's just not
+worth it having to drag along luggage in this life. Be minimalist with your stuff. And treat 
+code as stuff. 
+
+What would happen if I fixed as much as possible around me? 
+
+So, I have this dungeon program. It has a hex map, it has assets, is has camera movement.
+But I cannot use it for anything. It does not keep my intereset up. So basically the result it 
+gave me was the render groups thing. With clipping. I keep thinking I have to make this file
+parser stuff so it integrates easily with that program. I think now, that is a mistake. I am never
+going to finish the program. You cannot stop in the middle of a project and come back to it. You have
+forgotten the details. You can make one project, ship it, then make the next. Along the way you can
+pick up small ideas, that will make the next project better. But thinking you can keep going with 
+all this garbage behind you is simply wrong. And, furthermore, when you do a new project you don't 
+want all that old stuff! You want to make new stuff. And the stuff that is tedious to make will be
+much easier to do. Spending time integrating new stuff with the old stuff that you are never going to
+ship is wasteful of your time. Think about the abstraction layers. Think about what the simple problem
+I have is. And solve that problem. So, make a thing. 
